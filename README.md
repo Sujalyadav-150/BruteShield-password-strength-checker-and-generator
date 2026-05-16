@@ -1,38 +1,68 @@
-# 🔐 BruteShield – Password Security & Encryption System
+# 🔐 BruteShield – Advanced Password Security & Encryption System
 
-BruteShield is a modern Cyber Security based web application developed using **Python** and **Flask** that helps users analyze password strength, generate secure passwords, encrypt passwords using SHA-256 hashing, and securely store strong credentials.
+<div align="center">
 
-The project is designed to demonstrate real-world password security practices used in modern authentication systems.
+### 🛡️ Secure • Analyze • Encrypt • Protect
+
+A modern Cyber Security based web application built using **Python** and **Flask** that helps users analyze password strength, generate ultra-secure passwords, encrypt credentials using SHA-256 hashing, and securely store strong passwords.
+
+<img width="1918" height="991" alt="Screenshot (734)" src="https://github.com/user-attachments/assets/4dbbe167-d520-489a-9233-2981bd3a2d1b" />
+
+</div>
 
 ---
 
-# 🚀 Features
+# 🚀 Project Overview
 
-## ✅ Password Strength Checker
-- Analyzes password complexity in real-time
-- Checks:
-  - Password length
-  - Uppercase letters
-  - Lowercase letters
-  - Numbers
-  - Special characters
+BruteShield is designed to demonstrate real-world password security mechanisms used in modern authentication systems.
+
+This application allows users to:
+
+✅ Check password strength  
+✅ Generate strong passwords  
+✅ Encrypt passwords using SHA-256  
+✅ Store only secure passwords  
+✅ Detect weak passwords instantly  
+
+The project combines **Cyber Security concepts** with **Flask web development** and a modern neon-themed UI.
+
+---
+
+# ✨ Features
+
+## 🔍 Real-Time Password Strength Analysis
+
+BruteShield evaluates passwords based on:
+
+- Password Length
+- Uppercase Letters
+- Lowercase Letters
+- Numbers
+- Special Characters
 
 ---
 
 ## 🔒 SHA-256 Password Encryption
-- Encrypts passwords using SHA-256 hashing
-- Generates irreversible encrypted hash values
-- Demonstrates secure password handling concepts
+
+Passwords are encrypted using industry-standard **SHA-256 hashing**.
+
+Example:
+
+```bash
+Password: Admin@123
+```
+
+Encrypted Output:
+
+```bash
+240be518fabd2724ddb6f04eeb7a3c51...
+```
 
 ---
 
 ## ⚡ Strong Password Generator
-- Automatically suggests strong and secure passwords
-- Generates random passwords using:
-  - Alphabets
-  - Numbers
-  - Symbols
-  - Special characters
+
+Generate highly secure random passwords instantly.
 
 Example:
 
@@ -40,73 +70,103 @@ Example:
 A@7xLp#92Qr!Km
 ```
 
----
-
-## 💾 Secure Password Storage
-- Stores only strong passwords
-- Weak passwords are rejected
-- Encrypted passwords are securely saved in:
-
-```bash
-passwords.txt
-```
-
----
-
-## 📊 Real-Time Strength Meter
-- Displays password strength percentage
-- Visual progress bar for security analysis
-
----
-
-## 🖥️ Interactive Cybersecurity UI
-- Dark themed modern interface
-- Neon glow cyber-security design
-- Responsive Flask web application
-
----
-
-# 📸 Project Preview
-
-## 🔹 Main Interface
-
-<img width="1918" height="991" alt="Screenshot (734)" src="https://github.com/user-attachments/assets/4dbbe167-d520-489a-9233-2981bd3a2d1b" />
-
----
-
-## 🔹 Strong Password Generator
+### ✔️ Generated Password Includes:
+- Uppercase letters
+- Lowercase letters
+- Numbers
+- Symbols
+- Randomized combinations
 
 <img width="1920" height="997" alt="Screenshot (733)" src="https://github.com/user-attachments/assets/c336f8ae-a8a0-4028-9af9-f5c29fa34872" />
 
 ---
 
-## 🔹 Weak Password Detection
+# 📊 Password Strength Levels
+
+| Strength Score | Security Level | Status |
+|---|---|---|
+| 0 – 39 | Weak Password | ❌ Unsafe |
+| 40 – 69 | Medium Password | ⚠️ Improve Recommended |
+| 70 – 100 | Strong Password | ✅ Secure |
+
+---
+
+# ✅ When is a Password Strong?
+
+A password is considered **STRONG** when it contains:
+
+✔️ Minimum 8+ characters  
+✔️ Uppercase letters (A-Z)  
+✔️ Lowercase letters (a-z)  
+✔️ Numbers (0-9)  
+✔️ Special characters (@, #, $, %, &, etc.)  
+
+### Example of Strong Password
+
+```bash
+Brute@2025#Secure
+```
+
+---
+
+# ❌ When is a Password Weak?
+
+A password becomes **WEAK** when:
+
+❌ Too short  
+❌ Uses only lowercase letters  
+❌ No numbers included  
+❌ No special characters  
+❌ Easily guessable words  
+
+### Example of Weak Password
+
+```bash
+password123
+```
 
 <img width="1917" height="983" alt="Screenshot (732)" src="https://github.com/user-attachments/assets/8233ca08-7e80-45a1-96a9-effaf97cc916" />
 
 ---
 
-# 📊 Password Strength Criteria
+# 💾 Secure Password Storage
 
-| Criteria | Score |
-|---|---|
-| Minimum 8 Characters | 25 |
-| Lowercase Letters | 15 |
-| Uppercase Letters | 20 |
-| Numbers | 20 |
-| Special Characters | 20 |
+Only passwords with strength score **70+** are stored securely.
+
+Stored in:
+
+```bash
+passwords.txt
+```
+
+Each password is saved with:
+- Original Password
+- Encrypted SHA-256 Hash
+
+---
+
+# 🖥️ Modern Cybersecurity UI
+
+## 🎨 UI Highlights
+
+- Dark futuristic interface
+- Neon green glow effects
+- Responsive Flask web design
+- Real-time strength meter
+- Secure cyber-security inspired theme
 
 ---
 
 # 🛠️ Technologies Used
 
-- Python
-- Flask
-- HTML5
-- CSS3
-- SHA-256 Hashing
-- Regex
-- Random Password Generation
+| Technology | Purpose |
+|---|---|
+| Python | Backend Logic |
+| Flask | Web Framework |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| Regex | Password Validation |
+| SHA-256 | Password Encryption |
 
 ---
 
@@ -143,7 +203,7 @@ git clone https://github.com/your-username/BruteShield.git
 
 ---
 
-## 2️⃣ Navigate to Project Directory
+## 2️⃣ Open Project Folder
 
 ```bash
 cd BruteShield
@@ -151,7 +211,7 @@ cd BruteShield
 
 ---
 
-## 3️⃣ Install Required Packages
+## 3️⃣ Install Required Libraries
 
 ```bash
 pip install flask
@@ -159,7 +219,7 @@ pip install flask
 
 ---
 
-## 4️⃣ Run the Application
+## 4️⃣ Run Application
 
 ```bash
 python app.py
@@ -167,7 +227,7 @@ python app.py
 
 ---
 
-# 🌐 Open in Browser
+# 🌐 Launch in Browser
 
 ```bash
 http://127.0.0.1:5000
@@ -175,26 +235,31 @@ http://127.0.0.1:5000
 
 ---
 
-# 🔐 How It Works
+# 🔐 How BruteShield Works
 
-1. User enters a password
-2. System checks password strength
-3. Password gets encrypted using SHA-256
-4. Secure passwords are stored
-5. Weak passwords are rejected
-6. Strong passwords can also be auto-generated
+```text
+User Password
+      ↓
+Strength Analysis
+      ↓
+SHA-256 Encryption
+      ↓
+Security Validation
+      ↓
+Strong Password Storage
+```
 
 ---
 
 # 🎯 Future Enhancements
 
-- Copy Password Button
-- Password Visibility Toggle
-- Dark/Light Theme Switch
-- Database Integration
-- Multi-Factor Authentication
-- Password Breach Detection API
-- User Authentication System
+- 👁️ Password Visibility Toggle
+- 📋 Copy Password Button
+- 🌙 Dark/Light Mode
+- 🗄️ Database Integration
+- 🔑 Multi-Factor Authentication
+- 🌐 Password Breach Detection API
+- 👤 User Login Authentication
 
 ---
 
@@ -202,13 +267,13 @@ http://127.0.0.1:5000
 
 This project helped in understanding:
 
-- Cyber Security fundamentals
-- Password security mechanisms
-- SHA-256 hashing
-- Flask web development
-- Regex validation
-- Secure credential storage
-- UI/UX design principles
+✅ Cyber Security Fundamentals  
+✅ Password Protection Mechanisms  
+✅ SHA-256 Encryption  
+✅ Flask Web Development  
+✅ Regex Validation  
+✅ Secure Credential Handling  
+✅ UI/UX Design Principles  
 
 ---
 
@@ -216,10 +281,22 @@ This project helped in understanding:
 
 ## Sujal Yadav
 
-Cyber Security & Python Developer
+### Cyber Security Enthusiast | Python Developer | Flask Developer
 
 ---
 
-# ⭐ Support
+# ⭐ Support the Project
 
-If you like this project, give it a ⭐ on GitHub and support the repository.
+If you found this project useful:
+
+🌟 Star this repository on GitHub  
+🍴 Fork the repository  
+🛡️ Improve password security awareness  
+
+---
+
+<div align="center">
+
+## 🔐 “Check Strength. Encrypt Smart. Stay Secure.” 🛡️
+
+</div>
